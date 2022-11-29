@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.get('/ironhack/please/conflict', (req, res) => {
+app.get('/ironhackIsCool', (req, res) => {
   res.render('ironhack');
 });
 
