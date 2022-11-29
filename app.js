@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.get('/ironhack', (req, res) => {
+app.get('/ironhack/school', (req, res) => {
   res.render('ironhack');
 });
 
