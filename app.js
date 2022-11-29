@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/ironhack', (req, res) => {
+  res.render('ironhack');
+});
+
 app.get('/users/:user/books/:bookId', (req, res) => {
   console.log(req.params);
   res.send(req.params);
