@@ -15,6 +15,14 @@ app.get('/users/:user/books/:bookId', (req, res) => {
   console.log(req.params);
   res.send(req.params);
 });
+app.get('/users/:user', (req, res) => {
+  console.log(req.params);
+  res.send(req.params);
+});
+app.get('/users/:user/books', (req, res) => {
+  console.log(req.params);
+  res.send(req.params);
+});
 
 app.get('/search', (req, res) => {
   res.send(req.query);
